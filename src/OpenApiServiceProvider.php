@@ -59,8 +59,6 @@ class OpenApiServiceProvider extends ServiceProvider
                 $app[ComponentsBuilder::class]
             );
         });
-
-        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
     }
 
     public function register(): void
